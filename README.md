@@ -21,6 +21,15 @@ Intelligent zoom/pan logic to maintain a ~300% zoom level while keeping subjects
 
 Colab-ready setup (GPU-enabled)
 
+
+## Build Instructions (For Colab GPU):
+
+!pip install -U pip setuptools wheel cmake build \
+&& pip install git+https://github.com/rlabbe/filterpy.git \
+&& pip install git+https://github.com/tryolabs/norfair.git --no-build-isolation \
+&& pip install ultralytics scenedetect ffmpeg-python opencv-python
+
+
 ## How it Works
 
 Detection & Tracking:
