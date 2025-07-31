@@ -29,6 +29,19 @@ Colab-ready setup (GPU-enabled)
 && pip install git+https://github.com/tryolabs/norfair.git --no-build-isolation \
 && pip install ultralytics scenedetect ffmpeg-python opencv-python
 
+## Colab File Link:
+
+https://colab.research.google.com/drive/1A5Sr3PLLQuzjygGqycpimioMQbpVKStF?usp=sharing
+
+## Assumptions:
+
+Input videos are assumed to be 1080p with static or slow-moving backgrounds.
+
+Max zoom is capped at 3x to preserve video quality.
+
+Scene detection uses ContentDetector from PySceneDetect with default threshold tuning.
+
+Centering is based on average detected bounding boxes per frame.
 
 ## How it Works
 
@@ -54,3 +67,13 @@ Upload your video as input.mp4 in Colab.
 Run main.ipynb.
 
 Final video will be saved as test_output.mp4.
+
+## Summary:
+
+Scene boundary detection works reliably on real-world content changes (Video 1 and 2).
+
+Dynamic zoom with smooth transitions functions effectively.
+
+Subject-centric framing and zoom reset logic are stable and repeatable across videos.
+
+Platform tested: Google Colab (GPU) and Windows 11 (CPU), both passed.
