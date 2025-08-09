@@ -104,11 +104,11 @@ This report documents key parameters, hardware info, and output metrics for QA t
 
 ## How to Run
 
-1\. **Setup environment**
+**Setup environment**
 
 ```bash
 
-pip install ultralytics deep_sort_realtime scenedetect opencv-python-headless GPUtil psutil numpy
+!pip install ultralytics deep_sort_realtime scenedetect opencv-python-headless GPUtil psutil numpy
 
 Make sure `ffmpeg` is installed and accessible in your system path.
 
@@ -122,9 +122,11 @@ Make sure `ffmpeg` is installed and accessible in your system path.
 
     -   Thresholds and classes as needed
 
+```
 
-Purpose
--------
+**Purpose**
+
+```
 
 -   Tune detection, tracking, and smoothing parameters for best reframing
 
@@ -133,3 +135,4 @@ Purpose
 -   Debug jitter, missed detections, and scene detection errors
 
 -   Scale pipeline for different video genres and scenarios
+```
