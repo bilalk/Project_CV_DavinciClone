@@ -2,4 +2,4 @@
 https://drive.google.com/drive/folders/1RbOhOT3BBGxwXMbmpRtt7_U84DdIE7wM?usp=sharing
 
 # Notebook File Link on Runpods:
-https://discord.com/channels/@me/1391779225400250549/1406077374067638413
+(https://kxdilpg3ro1gip-8888.proxy.runpod.net/lab/tree/workspace/Davinci_15_August_Task.ipynb)
